@@ -1,0 +1,4 @@
+Error_same_datasets_small -> The error message for when I used 10 rows of the same dataset against itself
+Error_same_datasets_full -> The error message for when I used the full dataset against itself
+Error_different_datasets -> The error message for when I used two different datasets against each other
+Error_simulated -> The error message when I used two different datasets against each other but changed one of them to have the same SNPs as the other
