@@ -1,3 +1,5 @@
+#Script to use mr.input objects to make mr_plots
+
 library(MendelianRandomization)
 
 #Load file
@@ -75,8 +77,3 @@ mr_allmeth=mr_allmethods(mr)
 mr_plot(mr_allmeth)
 quartz.save(paste0(names[2],"_ALLMETH.png"),type="png")
 dev.off()
-
-x<-mr_ivw(mr)
-x
-
-mr<-loadRData(results[[6]])
